@@ -39,9 +39,6 @@ public class SaleDom {
             Element rootElement = newDoc.createElement("sales_data");
             newDoc.appendChild(rootElement);
 
-            // Aquí puedes agregar elementos, atributos y contenido al nuevo documento
-            // Por ejemplo, puedes copiar elementos o datos específicos del documento original
-
             // Guardar el nuevo documento en un archivo
             TransformerFactory transformerFactory = TransformerFactory.newInstance();
             Transformer transformer = transformerFactory.newTransformer();
